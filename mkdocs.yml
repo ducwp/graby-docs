@@ -1,0 +1,8 @@
+site_name: Graby Docs
+site_url: https://wpgraby.com
+nav:
+    - Home: index.md
+    - About: about.md
+theme:
+    name: mkdocs
+    locale: vi    

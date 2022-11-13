@@ -3,6 +3,7 @@ site_url: https://wpgraby.com
 nav:
     - Home: index.md
     - About: about.md
+    - License: license.md
 theme:
     name: mkdocs
     locale: vi    

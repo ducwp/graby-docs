@@ -2,6 +2,18 @@
 
 ## Uni convocat levis sequitur regia ex quinque
 
+This is my first article with some code:
+
+```csharp
+class Test
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello World");
+    }
+}
+```
+
 Lorem markdownum **monte**, morientem quodque ulterius Polymestora certaminis
 aevi! Viscera ipsa. Adplicat undique, mitte nostri parce, subitarum musta nunc
 saevis tu. Mors me adspicit nebulas ingenti et media.

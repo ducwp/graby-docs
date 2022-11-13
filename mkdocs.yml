@@ -5,5 +5,13 @@ nav:
     - About: about.md
     - License: license.md
 theme:
-    name: mkdocs
-    locale: vi    
+    name: material
+    language: vi
+extra:
+  alternate:
+    - name: Tiếng Việt
+      link: /
+      lang: vi
+    - name: Deutsch
+      link: /de/
+      lang: de    

@@ -1,2 +1,0 @@
-msgid "Next"
-msgstr "Tiếp"

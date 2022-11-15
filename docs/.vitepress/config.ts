@@ -11,9 +11,9 @@ export default defineConfig({
 
   themeConfig: {
     algolia: {
-      appId: '8J64VVRP8K',
-      apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
-      indexName: 'vitepress'
+      appId: 'PRG4V4VUL0',
+      apiKey: 'eafda0b6482e051b4fd31478456ffa38',
+      indexName: 'graby-docs'
     },
     /* carbonAds: {
       code: 'CEBDT27Y',

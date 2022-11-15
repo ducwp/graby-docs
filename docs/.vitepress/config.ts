@@ -13,7 +13,7 @@ export default defineConfig({
     algolia: {
       appId: 'PRG4V4VUL0',
       apiKey: 'eafda0b6482e051b4fd31478456ffa38',
-      indexName: 'graby-docs'
+      indexName: 'graby_docs'
     },
     /* carbonAds: {
       code: 'CEBDT27Y',

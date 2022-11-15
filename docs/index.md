@@ -1,5 +1,5 @@
 # Graby là gì?
-
+## Rất tuyệt vời
 Graby là một plugin lấy bài (cào bài) tự động dành cho [WordPress](https://wordpress.org/).
 
 ## Động lực

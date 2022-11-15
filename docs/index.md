@@ -2,6 +2,8 @@
 ## Rất tuyệt vời
 Graby là một plugin lấy bài (cào bài) tự động dành cho [WordPress](https://wordpress.org/).
 
+![Tux, the Linux mascot](/tux.png)
+
 ## Động lực
 
 Chúng tôi yêu thích VuePress v1, nhưng được xây dựng trên nền Webpack, thời gian quay máy chủ dành cho nhà phát triển cho một trang tài liệu đơn giản với một vài trang sẽ trở nên không thể chịu nổi. Ngay cả các bản cập nhật HMR có thể mất tới vài giây để phản ánh trong trình duyệt!

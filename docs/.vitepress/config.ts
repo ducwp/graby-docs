@@ -47,23 +47,22 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/logo.svg',
     algolia: {
       appId: 'PRG4V4VUL0',
       apiKey: 'eafda0b6482e051b4fd31478456ffa38',
       indexName: 'graby_docs',
     },
-    localeLinks: {
+    /* localeLinks: {
       text: '',
       items: [
         { text: 'Tiếng Việt', link: '/' },
         { text: 'English', link: '/en/' },
       ],
-    },
+    }, */
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/tensorchord/envd' },
-      { icon: 'twitter', link: 'https://twitter.com/TensorChord' },
-      { icon: 'discord', link: 'https://discord.gg/KqswhpVgdU' }
+      { icon: 'github', link: '#' },
+      { icon: 'facebook', link: '#' },
+      { icon: 'discord', link: '#' }
     ],
 
     /* carbonAds: {

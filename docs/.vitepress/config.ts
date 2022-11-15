@@ -6,7 +6,7 @@ export default defineConfig({
   lang: 'en',
   title: 'Graby Docs',
   description: 'Vite & Vue powered static site generator.',
-  base: '/graby-docs/',
+  //base: '/graby-docs/',
 
   head: [['meta', { name: 'theme-color', content: '#ff7800' }]],
 

@@ -8,6 +8,8 @@ Chúng tôi yêu thích VuePress v1, nhưng được xây dựng trên nền Web
 
 Về cơ bản, điều này là do VuePress v1 là một ứng dụng Webpack. Thậm chí chỉ với hai trang, đó là một dự án Webpack đầy đủ (bao gồm tất cả các tệp nguồn chủ đề) đang được biên dịch. Nó thậm chí còn tồi tệ hơn khi dự án có nhiều trang - mọi trang trước tiên phải được biên dịch đầy đủ trước khi máy chủ thậm chí có thể hiển thị bất kỳ thứ gì!
 
+## Dòng sông hờ hững
+
 Ngẫu nhiên, Vite giải quyết những vấn đề này thực sự tốt: khởi động máy chủ gần như tức thì, biên dịch theo yêu cầu chỉ biên dịch trang đang được phục vụ và HMR nhanh như chớp. Ngoài ra, có một số vấn đề thiết kế bổ sung mà tôi đã lưu ý trong VuePress v1 theo thời gian nhưng không bao giờ có thời gian để khắc phục do số lượng cấu trúc lại nó sẽ yêu cầu.
 
 Bây giờ, với Vite và Vue 3, đã đến lúc phải suy nghĩ lại về một "trình tạo trang web tĩnh do Vue cung cấp" thực sự có thể là gì.

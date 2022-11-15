@@ -2,7 +2,6 @@ import { defineConfig } from 'vitepress';
 
 // refer https://vitepress.vuejs.org/config/introduction for details
 export default defineConfig({
-  siteTitle: 'Hello World',
   lang: 'en',
   title: 'Graby Docs',
   description: 'Vite & Vue powered static site generator.',
@@ -14,7 +13,7 @@ export default defineConfig({
     algolia: {
       appId: 'PRG4V4VUL0',
       apiKey: 'eafda0b6482e051b4fd31478456ffa38',
-      indexName: 'graby'
+      indexName: 'graby-docs'
     },
     /* carbonAds: {
       code: 'CEBDT27Y',

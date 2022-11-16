@@ -4,20 +4,8 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   lang: 'vi',
   lastUpdated: true,
-  locales: {
-    '/': {
-      lang: 'vi',
-      title: 'Graby',
-      description: 'AI/ML Development Environment'
-    },
-    '/en/': {
-      lang: 'en',
-      title: 'Graby',
-      description: 'AI/ML 开发环境'
-    },
-  },
   title: 'Graby Docs',
-  description: 'Vite & Vue powered static site generator.',
+  description: 'Plugin tạo bài viết tự động dành cho WordPress.',
   //base: '/graby-docs/',
 
   head:[
@@ -52,19 +40,6 @@ export default defineConfig({
       apiKey: 'eafda0b6482e051b4fd31478456ffa38',
       indexName: 'graby_docs',
     },
-    localeLinks: {
-      text: '',
-      items: [
-        { text: 'Tiếng Việt', link: '/' },
-        { text: 'English', link: '/en/' },
-      ],
-    },
-    socialLinks: [
-      { icon: 'github', link: '#' },
-      { icon: 'facebook', link: '#' },
-      { icon: 'discord', link: '#' }
-    ],
-
     /* carbonAds: {
       code: 'CEBDT27Y',
       placement: 'vuejsorg'
@@ -88,16 +63,24 @@ export default defineConfig({
 
     sidebar: [
       {
-        // text: 'Guide',
+        text: 'Bắt đầu',
         items: [
-          { text: 'Bắt đầu', link: '/' },
-          { text: 'License', link: '/license' },
-          { text: 'Site Configs', link: '/site-configs' },
-          { text: 'Example', link: '/example' },
-          
-          // ...
+          { text: 'Giới thiệu', link: '/' },
+          { text: 'Cài đặt', link: '/install' },
+          { text: 'Giấy phép', link: '/license' },
         ],
       },
+      {
+        text: 'Hướng dẫn sử dụng',
+        items: [
+          { text: 'Chung', link: '/general' },
+          { text: 'Keyword', link: '/' },
+          { text: 'URLs', link: '/install' },
+          { text: 'Manual', link: '/manual' },
+          { text: 'Single Post', link: '/single-post' },
+        ],
+      },
+      
     ],
     footer: {
       message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',

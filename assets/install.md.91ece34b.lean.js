@@ -1,0 +1,1 @@
+import{_ as n,c as t,o as p,a}from"./app.acd6ccc6.js";const _=JSON.parse('{"title":"C\xE0i \u0111\u1EB7t Graby","description":"","frontmatter":{},"headers":[],"relativePath":"install.md","lastUpdated":1668587333000}'),i={name:"install.md"},o=a("",10),e=[o];function s(r,c,l,g,u,h){return p(),t("div",null,e)}const b=n(i,[["render",s]]);export{_ as __pageData,b as default};

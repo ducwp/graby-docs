@@ -35,11 +35,11 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    algolia: {
+    /* algolia: {
       appId: 'PRG4V4VUL0',
       apiKey: 'eafda0b6482e051b4fd31478456ffa38',
-      indexName: 'graby_docs',
-    },
+      indexName: 'vitepress',
+    }, */
     /* carbonAds: {
       code: 'CEBDT27Y',
       placement: 'vuejsorg'
